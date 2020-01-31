@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
-import jumbo1 from '../assets/jumbo1.jpg';
+import jumbo1 from '../assets/elk.jpg';
 
 const Styles = styled.div`
   .jumbo {
@@ -9,6 +9,7 @@ const Styles = styled.div`
     padding-bottom: 100px;
     background: url(${jumbo1}) no-repeat fixed bottom;
     background-size: cover;
+    background-position: center top;
     color: #ccc;
     position: relative;
     z-index: -2;

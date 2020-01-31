@@ -11,18 +11,28 @@ import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { Navigationbar } from './components/NavigationBar';
+import { PicCarousel } from './components/PicCarousel'
 import { Jumbotron } from './components/Jumbotron';
 import { Feedback } from './components/Feedback';
 import { Footer } from './components/Footer';
+import styled from 'styled-components';
+
+const Styles = styled.div`
+  .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+`;
 
 function App() {
   return (
     <React.Fragment>
+      <Styles>
       <Navigationbar />
-      <Jumbotron />
+      <PicCarousel />
       <Container>
         <Row>
-          <Col className="col-lg-8">
+          <Col className="col-lg-8 section">
             <Layout>
               <Router>
                 <Switch>
@@ -38,7 +48,7 @@ function App() {
               </Router>
             </Layout>
           </Col>
-          <Col>
+          <Col className="section">
             <Feedback />          
           </Col>
         </Row>
@@ -48,6 +58,7 @@ function App() {
           </Col>
         </Row>
       </Container>
+      </Styles>
     </React.Fragment>
   );
 }
