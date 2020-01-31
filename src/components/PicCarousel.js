@@ -15,10 +15,12 @@ const Styles = styled.div`
 
 #img1 {
   background: url(${moutains});
+  background-repeat: no;
 }
 
 #img2 {
   background: url(${Elk});
+  background-repeat: no;
 }
 
 .tint {
