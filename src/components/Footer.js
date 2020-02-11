@@ -16,6 +16,7 @@ export const Footer = () => (
         <p>9177 N. Hess Street • PO Box 3457</p>
         <p>Hayden, Idaho 83835-3457</p>
         <p>PHONE: (208) 772-2745 • FAX: (208) 762-7731</p>
+        <p>Photos by Trish Lyle</p>
       </div>
   </Styles>
 )

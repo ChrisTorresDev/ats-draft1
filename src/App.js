@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Home } from './Home';
-import { About } from './About';
-import { Survey } from './Survey';
-import { Planning } from './Planning';
-import { Projects } from './Projects';
-import { Engineering } from './Engineering';
-import { Contact } from './Contact';
-import { NoMatch } from './NoMatch';
+import { Home } from './components/Home';
+import { About } from './components/About';
+import { Survey } from './components/Survey';
+import { Planning } from './components/Planning';
+import { Projects } from './components/Projects';
+import { Engineering } from './components/Engineering';
+import { Contact } from './components/Contact';
+import { NoMatch } from './components/NoMatch';
 import { Layout } from './components/Layout';
 import { Navigationbar } from './components/NavigationBar';
 import { PicCarousel } from './components/PicCarousel'

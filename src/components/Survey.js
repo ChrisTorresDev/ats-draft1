@@ -1,5 +1,5 @@
 import React from 'react';
-import call from './assets/calltoday.jpg';
+import call from '../assets/calltoday.jpg';
 
 export const Survey = () => (
   <div>

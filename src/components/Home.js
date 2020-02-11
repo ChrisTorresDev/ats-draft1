@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import civil from './assets/civil.jpg';
-import survey from './assets/survey.jpg';
-import planning from './assets/planning.jpg';
-import nwmap1 from './assets/nwmap1.jpg';
-import call from './assets/calltoday.jpg';
+import civil from '../assets/civil.jpg';
+import survey from '../assets/survey.jpg';
+import planning from '../assets/planning.jpg';
+import nwmap1 from '../assets/nwmap1.jpg';
+import call from '../assets/calltoday.jpg';
 
 const Styles = styled.div`
   .section {
